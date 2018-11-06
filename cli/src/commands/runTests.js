@@ -305,6 +305,7 @@ async function writeFlowConfig(repoDirPath, testDirPath, libDefPath) {
     '[options]',
     'suppress_comment=\\\\(.\\\\|\\n\\\\)*\\\\$ExpectError',
     'include_warnings=true',
+    'server.max_workers=0',
     '',
 
     // Be sure to ignore stuff in the node_modules directory of the flow-typed
