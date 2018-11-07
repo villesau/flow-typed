@@ -689,7 +689,7 @@ export async function run(argv: Args): Promise<number> {
         err
           .split('\n')
           .map((line, idx) => {
-            return idx === 0 ? line : '      ' + line;
+            return idx === 0 ? line : '    ' + line;
           })
           .join('\n'),
       ),
